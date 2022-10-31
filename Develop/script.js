@@ -1,12 +1,15 @@
 // setting all variables needed for password criteria
 var abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ;
-var abcUpperArr = abcUpper.split("");
 var abcLower = "abcdefghijklmnopqrstuvwxyz";
-var abcLowerArr = abcLower.split("");
 var num = "0123456789";
-var numArr = num.split("");
 // var for special character set in criteria of assigment
 var sym = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
+
+
+
+var abcUpperArr = abcUpper.split("");
+var abcLowerArr = abcLower.split("");
+var numArr = num.split("");
 var symArr = sym.split("");
  
 function generatePassword() {
@@ -38,6 +41,8 @@ function generatePassword() {
 
     if(allChars.length === 0){
       alert("You must select at lease 1 type of characters to generate a password!\nPlease start over.");
+    
+    return null;
     }
     
     else {
