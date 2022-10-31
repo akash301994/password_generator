@@ -17,5 +17,6 @@ this website generates passwords based on which criteria you assign to your pass
 
 (http://github.com/akash301994)
 
+email: patel.akash30@icloud.com
 
 
