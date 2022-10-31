@@ -4,6 +4,7 @@
 
 ## Website deploy page
 
+https://akash301994.github.io/password_generator/
 
 ### Description and Function
 
@@ -15,4 +16,6 @@ this website generates passwords based on which criteria you assign to your pass
 ### Contact
 
 (http://github.com/akash301994)
+
+
 
